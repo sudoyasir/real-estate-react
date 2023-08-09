@@ -1,0 +1,9 @@
+.r-head{
+    margin-bottom: 2rem;
+}
+.r-card{
+    gap: 0.6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+}
