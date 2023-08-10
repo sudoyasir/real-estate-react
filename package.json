@@ -1,15 +1,20 @@
 {
   "name": "realestate",
+  "homepage": "https://yasir2002.github.io/real-estate-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "framer-motion": "^10.8.5",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
     "react-countup": "^6.4.2",
